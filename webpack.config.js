@@ -15,6 +15,9 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.json', '.jsx']
+    extensions: ['.js', '.json', '.jsx'],
+    alias: {
+      oo7: path.resolve('./node_modules/oo7'),
+    }
   }
 };
