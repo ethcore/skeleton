@@ -3,3 +3,4 @@ bin/
 node_modules
 package
 .DS_Store
+yarn-error.log
